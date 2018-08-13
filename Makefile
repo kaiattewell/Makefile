@@ -12,4 +12,4 @@ add:
 commit: add
 	@git commit -m ${comment}
 push: commit
-	@git push github Makefile
+	@git push -u Makefile master
