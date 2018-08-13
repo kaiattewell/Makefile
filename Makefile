@@ -8,8 +8,8 @@ test1:
 test2: test1
 	@echo "test2"
 add:
-	git add ${filename}
+	git add . 
 commit: add
 	git commit -m ${comment}
 push: commit
-	git push ${file}
+	git push
