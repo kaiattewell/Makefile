@@ -13,4 +13,4 @@ commit: add
 	@git commit -m ${comment}
 push: commit
 	@git remote add Makefile https://github.com/kaiattewell/Makefile.git
-	@git push ${filename}
+	@git push github Makefile
