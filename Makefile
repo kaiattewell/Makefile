@@ -8,9 +8,9 @@ test1:
 test2: test1
 	@echo "test2"
 add:
-	git add . 
+	@git add . 
 commit: add
-	git commit -m ${comment}
+	@git commit -m ${comment}
 push: commit
-	git remote add Makefile https://github.com/kaiattewell/Makefile.git
-	git push Makefile
+	@git remote add Makefile https://github.com/kaiattewell/Makefile.git
+	@git push Makefile
